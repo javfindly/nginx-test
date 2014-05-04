@@ -1,12 +1,8 @@
-# Installation
+# Nginx test framework
 
-You should never clone this repository; instead you should fork it into your account. Once you have done that, type:
-    
-    git clone git@github.com:mygithubaccount/frontend-rules.git
-    cd frontend-rules
-    sudo make bootstrap
 
-# Run the tests
+
+## Run the tests
 
 	sudo make test
 or
