@@ -121,7 +121,7 @@ function stop_dnsmasq() {
 function start_dnsmasq() {
     stop_dnsmasq
     DNSMASQ=$(which dnsmasq)
-    $DNSMASQ --no-hosts --no-resolv --cache-size=5000 --pid-file=$PID_FILE_DNSMASQ --listen-address=127.0.0.1 --address=/#/127.0.0.1 --address=/#/127.0.0.1 & 
+    $DNSMASQ --no-hosts --no-resolv --cache-size=5000 --pid-file=$PID_FILE_DNSMASQ --listen-address=127.0.0.1 --address=/#/127.0.0.1 & 
 }
 
 
